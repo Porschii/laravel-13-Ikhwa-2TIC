@@ -82,6 +82,10 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
+            <!--before-->
+            <h1>Welcome Aboard</h1>
+            <!--after-->
+            <h1><?php echo $username ?></h1>
             <h1> {{ $username }} </h1>
             <p> {{ $last_login }} </p>
             <p> {{ implode('TI, ', $list_pendidikan) }} </p>
